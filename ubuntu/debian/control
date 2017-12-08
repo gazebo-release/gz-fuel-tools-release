@@ -6,7 +6,7 @@ Priority: optional
 Build-Depends: cmake,
                pkg-config,
                debhelper (>= 9),
-	       libignition-common0-dev,
+	       libignition-common-dev,
 	       libzip-dev,
 	       libjsoncpp-dev,
 	       libcurl4-openssl-dev
@@ -27,7 +27,7 @@ Description: Ignition fuel-tools classes and functions for robot apps - Shared l
 Package: libignition-fuel-tools-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-common0-dev,
+Depends: libignition-common-dev,
        libzip-dev,
        libjsoncpp-dev,
        libcurl4-openssl-dev
