@@ -30,7 +30,7 @@ Section: libdevel
 Depends: libignition-common-dev,
        libzip-dev,
        libjsoncpp-dev,
-       libcurl4-openssl-dev
+       libcurl4-openssl-dev,
        libignition-fuel-tools0 (= ${binary:Version}),
        ${misc:Depends}
 Multi-Arch: same
