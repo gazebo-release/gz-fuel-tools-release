@@ -1,3 +1,9 @@
+ignition-fuel-tools (0.1.2~pre1-3~xenial) xenial; urgency=medium
+
+  * ignition-fuel-tools 0.1.2~pre1-3 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 12 Dec 2017 00:18:19 +0100
+
 ignition-fuel-tools (0.1.2~pre1-2~xenial) xenial; urgency=medium
 
   * ignition-fuel-tools 0.1.2~pre1-2 release
