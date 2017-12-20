@@ -6,11 +6,11 @@ Priority: optional
 Build-Depends: cmake,
                pkg-config,
                debhelper (>= 9),
-	       libignition-common-dev,
-	       libzip-dev,
-	       libjsoncpp-dev,
-	       libcurl4-openssl-dev
-         libyaml-dev
+  	           libignition-common-dev,
+	           libzip-dev,
+	           libjsoncpp-dev,
+	           libcurl4-openssl-dev,
+               libyaml-dev
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-fuel-tools-release
 Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign-fuel-tools-release
 Homepage: http://ignitionrobotics.org/
@@ -32,7 +32,7 @@ Depends: libignition-common-dev,
        libzip-dev,
        libjsoncpp-dev,
        libcurl4-openssl-dev,
-       libyaml-dev
+       libyaml-dev,
        libignition-fuel-tools0 (= ${binary:Version}),
        ${misc:Depends}
 Multi-Arch: same
