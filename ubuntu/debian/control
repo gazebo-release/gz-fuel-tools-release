@@ -6,6 +6,7 @@ Priority: optional
 Build-Depends: cmake,
                pkg-config,
                debhelper (>= 9),
+               libignition-cmake-dev,
                libignition-common-dev,
                libzip-dev,
                libjsoncpp-dev,
