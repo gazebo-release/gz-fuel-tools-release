@@ -29,7 +29,8 @@ Description: Ignition fuel-tools classes and functions for robot apps - Shared l
 Package: libignition-fuel-tools-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-common-dev (>= 1.0.0),
+Depends: libignition-cmake-dev, 
+       libignition-common-dev (>= 1.0.0),
        libzip-dev,
        libjsoncpp-dev,
        libcurl4-openssl-dev,
