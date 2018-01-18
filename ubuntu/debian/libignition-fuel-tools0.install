@@ -2,3 +2,4 @@ usr/lib/*/*.so.*
 usr/lib/*/*/*.rb
 usr/share/*/*.yaml
 usr/share/*/*/*.yaml
+usr/share/*/*/*.xml
