@@ -1,6 +1,6 @@
-ignition-fuel-tools (1.1.0-1~bionic) bionic; urgency=medium
+ignition-fuel-tools1 (1.1.0-1~bionic) bionic; urgency=medium
 
-  * ignition-fuel-tools 1.1.0-1 release
+  * ignition-fuel-tools1 1.1.0-1 release
 
  -- Louise Poubel <louise@openrobotics.org>  Tue, 01 May 2018 08:00:36 -0700
 
