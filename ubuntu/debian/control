@@ -27,6 +27,8 @@ Description: transitional package
 Package: libignition-fuel-tools1-1
 Architecture: any
 Section: libs
+Replaces: libignition-fuel-tools (<< 1.1.0-1)
+Breaks:  libignition-fuel-tools (<< 1.1.0-1)
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
@@ -45,6 +47,8 @@ Description: transitional package
 Package: libignition-fuel-tools1-dev
 Architecture: any
 Section: libdevel
+Replaces: libignition-fuel-tools-dev (<< 1.1.0-1)
+Breaks:  libignition-fuel-tools-dev (<< 1.1.0-1)
 Depends: libignition-cmake-dev, 
        libignition-common-dev (>= 1.0.0),
        libzip-dev,
