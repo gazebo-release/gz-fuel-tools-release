@@ -1,3 +1,9 @@
+ignition-fuel-tools1 (1.1.0-3~artful) artful; urgency=medium
+
+  * ignition-fuel-tools1 1.1.0-3 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 29 May 2018 12:49:49 +0200
+
 ignition-fuel-tools1 (1.1.0-2~artful) artful; urgency=medium
 
   * ignition-fuel-tools1 1.1.0-2 release
