@@ -1,3 +1,9 @@
+ignition-fuel-tools1 (1.2.0-1~xenial) xenial; urgency=medium
+
+  * ignition-fuel-tools1 1.2.0-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Wed, 30 May 2018 16:20:40 -0700
+
 ignition-fuel-tools1 (1.2.0~pre1-1~xenial) xenial; urgency=medium
 
   * ignition-fuel-tools1 1.2.0~pre1-1 release
