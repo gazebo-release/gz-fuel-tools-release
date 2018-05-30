@@ -1,4 +1,4 @@
-Source: ignition-fuel-tools
+Source: ignition-fuel-tools1
 Standards-Version: 3.9.8
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
@@ -17,8 +17,18 @@ Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign-fuel-tools-release
 Homepage: http://ignitionrobotics.org/
 
 Package: libignition-fuel-tools
+Depends: libignition-fuel-tools1-1, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+  This is a transitional package. It can safely be removed.
+
+Package: libignition-fuel-tools1-1
 Architecture: any
 Section: libs
+Replaces: libignition-fuel-tools (<< 1.1.0-1)
+Breaks:  libignition-fuel-tools (<< 1.1.0-1)
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
@@ -27,15 +37,25 @@ Description: Ignition fuel-tools classes and functions for robot apps - Shared l
   designed to rapidly develop robot applications.
 
 Package: libignition-fuel-tools-dev
+Depends: libignition-fuel-tools1-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+  This is a transitional package. It can safely be removed.
+
+Package: libignition-fuel-tools1-dev
 Architecture: any
 Section: libdevel
+Replaces: libignition-fuel-tools-dev (<< 1.1.0-1)
+Breaks:  libignition-fuel-tools-dev (<< 1.1.0-1)
 Depends: libignition-cmake-dev, 
        libignition-common-dev (>= 1.0.0),
        libzip-dev,
        libjsoncpp-dev,
        libcurl4-openssl-dev,
        libyaml-dev,
-       libignition-fuel-tools (= ${binary:Version}),
+       libignition-fuel-tools1-1 (= ${binary:Version}),
        ${misc:Depends}
 Multi-Arch: same
 Description: Ignition fuel-tools classes and functions for robot apps - Development files
