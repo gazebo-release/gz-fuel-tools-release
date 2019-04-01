@@ -1,3 +1,9 @@
+ignition-fuel-tools1 (1.2.0-2~sid) sid; urgency=medium
+
+  * ignition-fuel-tools1 1.2.0-2 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 01 Apr 2019 17:33:31 +0200
+
 ignition-fuel-tools1 (1.2.0-1~sid) sid; urgency=medium
 
   * ignition-fuel-tools1 1.2.0-1 release
